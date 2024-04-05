@@ -1,6 +1,6 @@
 import mysql.connector
 
-myDb = mysql.connector.connect (
+myDb = mysql.connector.connect(
     host = "localhost",
     user = "root",
     password = "1Flp2004a!",
@@ -9,6 +9,7 @@ myDb = mysql.connector.connect (
 
 if myDb.is_connected():
     print("Conexão bem-sucedida!")
+
 
 mycursor = myDb.cursor()
 
